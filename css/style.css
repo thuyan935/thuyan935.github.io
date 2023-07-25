@@ -1,0 +1,212 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1.5em;
+  background: fixed #fdf6f0 url("/css/img/background.png") no-repeat center
+    center/cover;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1100px;
+  overflow: auto;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* links and navigation bar*/
+a {
+  color: #574533;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+#navbar ul {
+  margin: 35px;
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+  padding: 10px;
+  text-align: center;
+  margin-right: 50px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+#navbar ul li a:hover {
+  color: #eebab2;
+}
+
+/* heading */
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+/* Introduction box*/
+.box {
+  border: #574533 solid 1px;
+  padding: 20px;
+  width: 1000px;
+  height: 350px;
+  display: flex;
+}
+
+.name-and-intro {
+  width: 60%;
+}
+
+.intro-image {
+  width: 20%;
+  margin-left: 50px;
+}
+
+#name {
+  color: #574533;
+  font-size: 60px;
+  letter-spacing: 3px;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+#description {
+  float: left;
+  text-align: justify;
+  margin-left: 50px;
+  margin-top: 20px;
+  color: #e7cba9;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+/* About Me Section*/
+#about-me {
+  display: flex;
+}
+
+.about-me-box {
+  border: #574533 solid 1px;
+  border-left: none;
+  border-bottom: none;
+  border-top: none;
+  width: 30%;
+  height: 300px;
+  margin-top: 80px;
+}
+
+#about {
+  color: #574533;
+  padding: 30px;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 50px;
+}
+
+#me {
+  color: #574533;
+  padding: 30px;
+  margin-left: 50px;
+  font-size: 50px;
+}
+
+.facts-box {
+  width: 70%;
+  margin-left: 35px;
+  margin-top: 120px;
+}
+
+#facts-list li {
+  color: #e7cba9;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Footer and Contact Information */
+footer {
+  background-color: #ebddcc;
+  font-size: 15px;
+  padding: 80px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 90;
+  top: 900px;
+}
+
+#contact-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#contact-info {
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #574533;
+}
+
+/* Project One and Descriptions */
+#guess_number {
+  text-align: center;
+  display: flex;
+}
+
+.flexbox-one {
+  width: 200px;
+}
+
+.flexbox-two {
+  width: 50%;
+  margin-left: 200px;
+  margin-top: 100px;
+  text-align: justify;
+}
+
+/* Project Two and Description */
+#blackjack {
+  text-align: center;
+  display: flex;
+}
+
+.flexbox-three {
+  width: 200px;
+}
+
+.flexbox-four {
+  width: 50%;
+  margin-left: 200px;
+  margin-top: 100px;
+  text-align: justify;
+}
+
+/* Project Three and Description */
+#webscrapping {
+  text-align: center;
+  display: flex;
+}
+
+.flexbox-five {
+  width: 200px;
+}
+
+.flexbox-six {
+  width: 50%;
+  margin-left: 200px;
+  margin-top: 100px;
+  text-align: justify;
+}
+
+.game_name {
+  color: #574533;
+}
